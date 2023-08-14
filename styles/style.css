@@ -66,13 +66,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 /* cover */
 
 .cover {
-  min-height: 221px;
-  padding-top: 7px;
+  min-height: 228px;
+  padding-top: 10px;
   padding-left: 20px;
   background-image: url('../images/cover.svg');
-  background-position: 35px 34px;
+  background-position: bottom 0px left 21px;
   background-repeat: no-repeat;
-  background-size: 90% auto;
+  background-size: 339px 198px;
 }
 
 .accent-span {
