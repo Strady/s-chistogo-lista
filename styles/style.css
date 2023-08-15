@@ -108,7 +108,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .intro__heading {
   display: flex;
   justify-content: space-between;
-  line-height: 120%
 }
 
 .intro__date {
@@ -119,7 +118,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  line-height: 135%
+  line-height: 135%;
 }
 
 
@@ -142,7 +141,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .content-section__introduction {
   font-size: 20px;
-  line-height: 27px;
+  line-height: 135%;
 }
 
 .content-section__list {
