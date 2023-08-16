@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .header {
   padding: 24px 20px;
   display: flex;
-  gap: 168px;
+  justify-content: space-between;
 }
 
 .header__logo-image {
@@ -81,15 +81,16 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
+  color: #fff;
 }
 
 .accent-span {
   display: block;
-  font-family: EB Garamond;
+  font-family: EB Garamond, sans-serif;
 }
 
 .text-center {
-  padding-left: 46px;
+  text-align: center;
 }
 
 .text-right {
@@ -117,6 +118,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
   white-space: nowrap;
 }
 
@@ -138,7 +142,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__subtitle {
-  font-family: EB Garamond;
+  font-family: EB Garamond, sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -158,7 +162,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__list-item {
-  line-height: 21.6px;
+  line-height: 135%;
 }
 
 .content-section__list-accent {
@@ -198,6 +202,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .card__author-photo {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
 }
 
 .card__author-name {
@@ -212,7 +217,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .card__title {
-  font-family: EB Garamond;
+  font-family: EB Garamond, sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 135%;
@@ -236,4 +241,5 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   gap: 16px;
   font-size: 14px;
   line-height: 125%;
+  list-style-type: none;
 }
